@@ -4,10 +4,10 @@ class personaje {
     this.posY = posY;
     this.colorpersonaje = color(255, 0, 0);
     this.vida  = 1;
-   this.cargaImagenes();
+   this.carga();
 }
 
-  cargaImagenes(){
+  carga(){
    this.personaje = loadImage("data/fondo6.png");
  }
   

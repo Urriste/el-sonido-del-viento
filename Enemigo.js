@@ -5,14 +5,16 @@ class enemigo {
     this.colorenemigo = color(0, 255, 0);
     this.vel = random(0.5, 1.5);
     this.vida = true;
-    this.cargaImagenes();
+    this.carga();
 }
 
-  cargaImagenes(){
+  carga(){
    this.enemigo = loadImage("data/fondo5.png");
  }
   
-
+  
+  
+  
   dibujarEnemigo() {
     push();
     imageMode(CENTER);

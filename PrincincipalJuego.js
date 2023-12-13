@@ -1,7 +1,7 @@
 class PrincipalJuego {
   constructor() {
       
-    this.timer = 0;
+      this.timer = 0;
     this.timerSeg = 0;
     this.enem = new enemigo(400, 400);
     this.personaje = new personaje(20, 300);
@@ -12,7 +12,7 @@ class PrincipalJuego {
     }
     
     this.tocaron = 0;
-    this.terminoJuego = false;
+     this.terminoJuego = false;
   }
   
 
